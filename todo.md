@@ -1,5 +1,12 @@
 # CheckList
 
+## Pontos técnicos - Puppeteer
+
+- Acessar elementos
+- Clicar em elementos
+- Digitar em elementos
+- Acessar valores de elementos
+
 ## Etapa I
 
 - Acessar site Lume
