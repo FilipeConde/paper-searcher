@@ -2,10 +2,21 @@
 
 ## Pontos técnicos - Puppeteer
 
-- Acessar elementos
+- Acessar elementos (focar)
+
+      await page.focus(locator)
+
 - Clicar em elementos
-- Digitar em elementos
+
+      await page.click(locator)
+
+- Digitar em elementos (primeiro focar)
+
+      await page.keyboard.type('content')
+
 - Acessar valores de elementos
+
+      await page.$eval(locator, (element) => element.textContent)
 
 ## Etapa I
 
@@ -22,3 +33,5 @@
 ## Etapa III
 
 ## Etapa IV
+
+- Criar interface visual para aplicação
