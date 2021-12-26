@@ -1,5 +1,11 @@
 # CheckList
 
+## Prioridades
+
+- Criar método independente para retornar Browser
+- Criar método independente para retornar Page
+- Setar controle desses dois elementos individualmente dentro do programa
+
 ## Pontos técnicos - Puppeteer
 
 - Acessar elementos (focar)
