@@ -7,8 +7,12 @@ const elements = {
 };
 
 export default class HomePage {
-  static accessHomePage(page) {
-    page.goto(url);
+  static async accessHomePage(page) {
+    try {
+      await page.goto(url);
+    } catch (error) {
+      console.error(error);
+    }
   }
   static doSearch(query) {
     Actions.type(page, elements.INPUT, query);

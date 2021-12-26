@@ -7,7 +7,7 @@ const expect = chai.expect;
 
 describe('Puppeteer actions test suite', async () => {
   context('Get new page from puppeteer', async () => {
-    it.only('should get new page and do actions', async () => {
+    it('should get new page and do actions', async () => {
       let page = await index.getPage();
       page.goto('https://www.google.com');
     });
@@ -22,11 +22,8 @@ describe('Puppeteer actions test suite', async () => {
     });
 
     it('should visit google', async () => {
-      // const browser = await puppeteer.launch();
-      // const page = await browser.newPage();
       await page.goto('https://www.google.com');
       expect(page.url()).include('google.com');
-      // await browser.close();
     });
 
     it('should get the text from the "Imagens" element', async () => {
