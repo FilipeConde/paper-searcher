@@ -6,7 +6,7 @@
 - Criar método independente para retornar Page
 - Setar controle desses dois elementos individualmente dentro do programa
 
-- problema atual: isolar estruturas básicas do Puppeteer e devolvê-las de maneira assíncrona;
+- problema atual: isolar estruturas básicas do Puppeteer e devolvê-las de maneira assíncrona
 
 ## Pontos técnicos - Puppeteer
 
